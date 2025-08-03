@@ -1,3 +1,4 @@
 # catálogo-de-serpientes
-![/Catálogo.png]
+![Catálogo.png]
+
 
