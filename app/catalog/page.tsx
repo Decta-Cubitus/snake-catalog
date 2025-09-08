@@ -35,7 +35,7 @@ const snakesData = [
     habitat: "Terrestres y semiacuáticas",
     diet: "Aves, lagartos, ratones",
     reproduction: "Ovovivíparas",
-    image: "/Vibora de Cobre.jpg?height=300&width=400",
+    image: "/vibora de cobre.jpg?height=300&width=400",
     description: "Serpiente venenosa conocida por su coloración cobriza característica.",
   },
   {
