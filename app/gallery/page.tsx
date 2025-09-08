@@ -18,7 +18,7 @@ const galleryImages = [
   },
   {
     id: 2,
-    image: "/Vibora de cobre.jpg?height=400&width=600",
+    image: "/vibora de cobre.jpg?height=400&width=600",
     alt: "vibora Cabeza de Cobre",
     title: "Víbora Cabeza de Cobre",
     description: "Conocida por su coloración cobriza distintiva",
