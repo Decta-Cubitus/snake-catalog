@@ -35,7 +35,7 @@ Para sugerencias, preguntas o para reportar problemas, puedes contactarnos en:<b
 E-mail: dectacubito@gmail.com o a través de Github: https://github.com/Decta-Cubitus.
 
 ## 📜 Licencia
-Este proyecto se distribuye bajo la licencia: Apache 2.0.<br> Consulta el archivo `LICENSE` para más detalles.
+Este proyecto se distribuye bajo la licencia: MIT.<br> Consulta el archivo `LICENSE` para más detalles.
 
 ---
 
