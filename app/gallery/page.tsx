@@ -18,8 +18,8 @@ const galleryImages = [
   },
   {
     id: 2,
-    image: "/Vibora de Cobre.jpg?height=400&width=600",
-    alt: "Víbora Cabeza de Cobre",
+    image: "/Vibora de cobre.jpg?height=400&width=600",
+    alt: "vibora Cabeza de Cobre",
     title: "Víbora Cabeza de Cobre",
     description: "Conocida por su coloración cobriza distintiva",
     category: "Venenosas",
@@ -42,7 +42,7 @@ const galleryImages = [
   },
   {
     id: 5,
-    image: "/falsacoral.jpg?height=400&width=600",
+    image: "/falsacoral.JPG?height=400&width=600",
     alt: "Falsa Coral",
     title: "Falsa Coral",
     description: "Serpiente no venenosa que imita a la coral verdadera",

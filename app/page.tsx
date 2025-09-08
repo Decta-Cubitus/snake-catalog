@@ -26,7 +26,7 @@ const featuredSnakes = [
     region: "Sur de Estados Unidos, México",
     venomous: true,
     habitat: "Terrestres y semiacuáticas",
-    image: "/vibora de Cobre.jpg?height=300&width=400",
+    image: "/vibora de cobre.jpg?height=300&width=400",
   },
   {
     id: 3,
