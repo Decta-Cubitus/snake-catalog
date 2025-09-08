@@ -10,7 +10,7 @@ import Link from "next/link"
 const galleryImages = [
   {
     id: 1,
-    src: "/crotalo occidental.webp?height=400&width=600",
+    image: "/crotalo occidental.webp?height=400&width=600",
     alt: "Crótalo Diamantino Occidental",
     title: "Crótalo Diamantino Occidental",
     description: "Serpiente venenosa característica del suroeste de Estados Unidos",
@@ -18,7 +18,7 @@ const galleryImages = [
   },
   {
     id: 2,
-    src: "/Vibora de Cobre.jpg?height=400&width=600",
+    image: "/Vibora de Cobre.jpg?height=400&width=600",
     alt: "Víbora Cabeza de Cobre",
     title: "Víbora Cabeza de Cobre",
     description: "Conocida por su coloración cobriza distintiva",
@@ -26,7 +26,7 @@ const galleryImages = [
   },
   {
     id: 3,
-    src: "/mocasin deagua.jpg?height=400&width=600",
+    image: "/mocasin deagua.jpg?height=400&width=600",
     alt: "Mocasín de Agua",
     title: "Mocasín de Agua",
     description: "Serpiente semiacuática del sureste de Estados Unidos",
@@ -34,7 +34,7 @@ const galleryImages = [
   },
   {
     id: 4,
-    src: "/serpiente-coral.webp?height=400&width=600",
+    image: "/serpiente-coral.webp?height=400&width=600",
     alt: "Serpiente Coral",
     title: "Serpiente Coral",
     description: "Serpiente altamente venenosa con patrones coloridos",
@@ -42,7 +42,7 @@ const galleryImages = [
   },
   {
     id: 5,
-    src: "/falsacoral.jpg?height=400&width=600",
+    image: "/falsacoral.jpg?height=400&width=600",
     alt: "Falsa Coral",
     title: "Falsa Coral",
     description: "Serpiente no venenosa que imita a la coral verdadera",
@@ -50,7 +50,7 @@ const galleryImages = [
   },
   {
     id: 6,
-    src: "/tiposcoral.jpg?height=400&width=600",
+    image: "/tiposcoral.jpg?height=400&width=600",
     alt: "Comparación Coral vs Falsa Coral",
     title: "Coral vs Falsa Coral",
     description: "Comparación visual entre especies venenosas y no venenosas",
@@ -158,7 +158,7 @@ export default function GalleryPage() {
             >
               <div className="relative h-64 rounded-lg overflow-hidden m-3">
                 <Image
-                  src={image.src || "/placeholder.svg"}
+                  src={image.image || "/placeholder.svg"}
                   alt={image.alt}
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -222,7 +222,7 @@ export default function GalleryPage() {
               {/* Image / Imagen */}
               <div className="relative">
                 <Image
-                  src={selectedImageData.src || "/placeholder.svg"}
+                  src={selectedImageData.image || "/placeholder.svg"}
                   alt={selectedImageData.alt}
                   width={800}
                   height={600}
