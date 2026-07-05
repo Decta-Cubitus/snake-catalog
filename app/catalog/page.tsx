@@ -193,7 +193,7 @@ export default function CatalogPage() {
           {filteredSnakes.map((snake) => (
             <Card key={snake.id} className="overflow-hidden hover:shadow-lg transition-shadow text-green-700">
               <div className="relative h-48">
-                <Image src={snake.image || "/placeholder.svg"} alt={snake.name} fill className="object-cover p-2 rounded-2xl" />
+                <Image src={snake.image || "/placeholder.svg"} alt={snake.name} fill sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" className="object-cover p-2 rounded-2xl" />
                 {snake.venomous && <Badge className="absolute top-4 right-4 bg-red-500 text-white">Venenosa</Badge>}
               </div>
 

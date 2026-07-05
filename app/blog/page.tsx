@@ -80,11 +80,11 @@ const blogPosts = [
   },
 ]
 
+const categories = ["all", "Identificación", "Educación", "Conservación", "Seguridad", "Cultura", "Fotografía"]
+
 export default function BlogPage() {
   const [searchTerm, setSearchTerm] = useState("")
   const [selectedCategory, setSelectedCategory] = useState("all")
-
-  const categories = ["all", "Identificación", "Educación", "Conservación", "Seguridad", "Cultura", "Fotografía"]
 
   const filteredPosts = blogPosts.filter((post) => {
     const matchesSearch =
@@ -177,6 +177,7 @@ export default function BlogPage() {
                       src={featuredPost.image || "/placeholder.svg"}
                       alt={featuredPost.title}
                       fill
+                      sizes="(max-width: 768px) 100vw, 50vw"
                       className="object-cover"
                     />
                   </div>
@@ -235,7 +236,7 @@ export default function BlogPage() {
               {regularPosts.map((post) => (
                 <Card key={post.id} className="overflow-hidden hover:shadow-lg transition-shadow">
                   <div className="relative h-48">
-                    <Image src={post.image || "/serpiente-cascabel.jpg"} alt={post.title} fill className="object-cover p-2 rounded-2xl" />
+                    <Image src={post.image || "/serpiente-cascabel.jpg"} alt={post.title} fill sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" className="object-cover p-2 rounded-2xl" />
                   </div>
 
                   <CardHeader>

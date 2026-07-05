@@ -64,11 +64,11 @@ const videosData = [
   },
 ]
 
+const categories = ["all", "Comportamiento", "Identificación", "Hábitat", "Veneno", "Comparación", "Seguridad"]
+
 export default function VideosPage() {
   const [selectedVideo, setSelectedVideo] = useState<number | null>(null)
   const [selectedCategory, setSelectedCategory] = useState("all")
-
-  const categories = ["all", "Comportamiento", "Identificación", "Hábitat", "Veneno", "Comparación", "Seguridad"]
 
   const filteredVideos =
     selectedCategory === "all" ? videosData : videosData.filter((video) => video.category === selectedCategory)
@@ -127,6 +127,7 @@ export default function VideosPage() {
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
+                    sandbox="allow-scripts allow-same-origin allow-presentation allow-popups"
                     className="w-full h-full"
                   ></iframe>
                 </div>

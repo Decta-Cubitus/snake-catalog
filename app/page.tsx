@@ -134,7 +134,7 @@ export default function HomePage() {
             {featuredSnakes.map((snake) => (
               <Card key={snake.id} className="overflow-hidden hover:shadow-lg transition-shadow">
                 <div className="relative h-48 rounded-lg overflow-hidden m-3">
-                  <Image src={snake.image || "/placeholder.svg"} alt={snake.name} fill className="object-cover" />
+                  <Image src={snake.image || "/placeholder.svg"} alt={snake.name} fill sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" className="object-cover" />
                   {snake.venomous && <Badge className="absolute top-2 right-2 bg-red-500">Venenosa</Badge>}
                 </div>
                 <CardHeader>
