@@ -58,11 +58,11 @@ const galleryImages = [
   },
 ]
 
+const categories = ["all", "Venenosas", "No Venenosas", "Comparaciones"]
+
 export default function GalleryPage() {
   const [selectedImage, setSelectedImage] = useState<number | null>(null)
   const [selectedCategory, setSelectedCategory] = useState("all")
-
-  const categories = ["all", "Venenosas", "No Venenosas", "Comparaciones"]
 
   const filteredImages =
     selectedCategory === "all" ? galleryImages : galleryImages.filter((img) => img.category === selectedCategory)
@@ -153,14 +153,24 @@ export default function GalleryPage() {
           {filteredImages.map((image) => (
             <div
               key={image.id}
-              className="group relative bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow cursor-pointer"
+              role="button"
+              tabIndex={0}
+              aria-label={`Ampliar imagen: ${image.title}`}
+              className="group relative bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow cursor-pointer focus:outline-none focus:ring-2 focus:ring-green-500"
               onClick={() => openLightbox(image.id)}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  e.preventDefault()
+                  openLightbox(image.id)
+                }
+              }}
             >
               <div className="relative h-64 rounded-lg overflow-hidden m-3">
                 <Image
                   src={image.image || "/placeholder.svg"}
                   alt={image.alt}
                   fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 group-hover:bg-opacity-30 transition-opacity duration-300 flex items-center justify-center">
