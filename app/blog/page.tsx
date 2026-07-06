@@ -20,7 +20,7 @@ const blogPosts = [
     date: "2024-01-15",
     readTime: "8 min",
     category: "Identificación",
-    image: "/serpiente-cascabel.jpg?height=300&width=500",
+    image: "/serpiente-cascabel.jpg",
     featured: true,
   },
   {
@@ -32,7 +32,7 @@ const blogPosts = [
     date: "2024-01-10",
     readTime: "6 min",
     category: "Educación",
-    image: "/tiposcoral.jpg?height=300&width=500",
+    image: "/tiposcoral.jpg",
   },
   {
     id: 3,
@@ -43,7 +43,7 @@ const blogPosts = [
     date: "2024-01-05",
     readTime: "10 min",
     category: "Conservación",
-    image: "/mocasin deagua.jpg?height=300&width=500",
+    image: "/mocasin deagua.jpg",
   },
   {
     id: 4,
@@ -54,7 +54,7 @@ const blogPosts = [
     date: "2023-12-28",
     readTime: "12 min",
     category: "Seguridad",
-    image: "/crotalo occidental.webp?height=300&width=500",
+    image: "/crotalo occidental.webp",
   },
   {
     id: 5,
@@ -65,7 +65,7 @@ const blogPosts = [
     date: "2023-12-20",
     readTime: "7 min",
     category: "Cultura",
-    image: "/vibora de cobre.jpg?height=300&width=500",
+    image: "/vibora de cobre.jpg",
   },
   {
     id: 6,
@@ -76,7 +76,7 @@ const blogPosts = [
     date: "2023-12-15",
     readTime: "9 min",
     category: "Fotografía",
-    image: "/serpiente-cascabel.jpg?height=300&width=500",
+    image: "/serpiente-cascabel.jpg",
   },
 ]
 

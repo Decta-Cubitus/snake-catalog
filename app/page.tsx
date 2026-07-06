@@ -17,7 +17,7 @@ const featuredSnakes = [
     region: "Sur de Estados Unidos, México",
     venomous: true,
     habitat: "Desiertos y praderas",
-    image: "/crotalo occidental.webp?height=300&width=400",
+    image: "/crotalo occidental.webp",
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const featuredSnakes = [
     region: "Sur de Estados Unidos, México",
     venomous: true,
     habitat: "Terrestres y semiacuáticas",
-    image: "/vibora de cobre.jpg?height=300&width=400",
+    image: "/vibora de cobre.jpg",
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const featuredSnakes = [
     region: "Sureste de Estados Unidos",
     venomous: true,
     habitat: "Semiacuáticas",
-    image: "/mocasin deagua.jpg?height=300&width=400",
+    image: "/mocasin deagua.jpg",
   },
 ]
 

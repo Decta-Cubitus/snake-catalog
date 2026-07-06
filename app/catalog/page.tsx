@@ -22,7 +22,7 @@ const snakesData = [
     habitat: "Desiertos y praderas",
     diet: "Aves, lagartos, ratones",
     reproduction: "Ovovivíparas",
-    image: "/crotalo occidental.webp?height=300&width=400",
+    image: "/crotalo occidental.webp",
     description: "El crótalo diamante occidental es una de las víboras más agresivas y peligrosas de Estados Unidos.",
   },
   {
@@ -35,7 +35,7 @@ const snakesData = [
     habitat: "Terrestres y semiacuáticas",
     diet: "Aves, lagartos, ratones",
     reproduction: "Ovovivíparas",
-    image: "/vibora de cobre.jpg?height=300&width=400",
+    image: "/vibora de cobre.jpg",
     description: "Serpiente venenosa conocida por su coloración cobriza característica.",
   },
   {
@@ -48,7 +48,7 @@ const snakesData = [
     habitat: "Terrestres y semiacuáticas",
     diet: "Peces, ranas, lagartijas, otras serpientes",
     reproduction: "Ovovivíparas",
-    image: "/mocasin deagua.jpg?height=300&width=400",
+    image: "/mocasin deagua.jpg",
     description: "También conocida como boca de algodón, es una serpiente semiacuática muy agresiva.",
   },
   {
@@ -61,7 +61,7 @@ const snakesData = [
     habitat: "Bosques tropicales",
     diet: "Reptiles, serpientes, ranas",
     reproduction: "Ovíparas",
-    image: "/serpiente-coral.webp?height=300&width=400",
+    image: "/serpiente-coral.webp",
     description: "Serpiente altamente venenosa con patrones de colores distintivos.",
   },
 ]

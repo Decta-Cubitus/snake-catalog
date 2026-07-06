@@ -10,7 +10,7 @@ import Link from "next/link"
 const galleryImages = [
   {
     id: 1,
-    image: "/crotalo occidental.webp?height=400&width=600",
+    image: "/crotalo occidental.webp",
     alt: "Crótalo Diamantino Occidental",
     title: "Crótalo Diamantino Occidental",
     description: "Serpiente venenosa característica del suroeste de Estados Unidos",
@@ -18,7 +18,7 @@ const galleryImages = [
   },
   {
     id: 2,
-    image: "/vibora de cobre.jpg?height=400&width=600",
+    image: "/vibora de cobre.jpg",
     alt: "vibora Cabeza de Cobre",
     title: "Víbora Cabeza de Cobre",
     description: "Conocida por su coloración cobriza distintiva",
@@ -26,7 +26,7 @@ const galleryImages = [
   },
   {
     id: 3,
-    image: "/mocasin deagua.jpg?height=400&width=600",
+    image: "/mocasin deagua.jpg",
     alt: "Mocasín de Agua",
     title: "Mocasín de Agua",
     description: "Serpiente semiacuática del sureste de Estados Unidos",
@@ -34,7 +34,7 @@ const galleryImages = [
   },
   {
     id: 4,
-    image: "/serpiente-coral.webp?height=400&width=600",
+    image: "/serpiente-coral.webp",
     alt: "Serpiente Coral",
     title: "Serpiente Coral",
     description: "Serpiente altamente venenosa con patrones coloridos",
@@ -42,7 +42,7 @@ const galleryImages = [
   },
   {
     id: 5,
-    image: "/falsacoral.JPG?height=400&width=600",
+    image: "/falsacoral.JPG",
     alt: "Falsa Coral",
     title: "Falsa Coral",
     description: "Serpiente no venenosa que imita a la coral verdadera",
@@ -50,7 +50,7 @@ const galleryImages = [
   },
   {
     id: 6,
-    image: "/tiposcoral.jpg?height=400&width=600",
+    image: "/tiposcoral.jpg",
     alt: "Comparación Coral vs Falsa Coral",
     title: "Coral vs Falsa Coral",
     description: "Comparación visual entre especies venenosas y no venenosas",
